@@ -27,6 +27,46 @@ while boolval == True:
         minstringlen = len(str)
     numberflag = 1
 print (maxstring, minstring)
+
+
+'''
+#Other 2 questions since canvas messed up the format of code
+
+#Question 1
+
+ #1.
+
+previnput = 1
+while True:
+    userinput = int(input('Enter a number: '))
+    if (int(userinput % 2) == 0 and int(previnput % 2) == 0):
+        break 
+    previnput = userinput
+
+print ((previnput), (userinput))
+'''
+
+
+
+'''
+
+#Question 3
+
+boolp = False
+countp = 0
+while True:
+    str = input('Enter a string: ')
+    if (str == 'stop'):
+        break
+    else:
+        for i in range(len(str)): 
+            if (str[i] == 'p'):
+                countp += 1    
+print (countp)
+print()
+'''
+
+
 # ******************************
 
 
